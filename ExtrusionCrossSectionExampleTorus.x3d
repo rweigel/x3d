@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D version='3.0' profile='Immersive' xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.0.xsd'>
+  <head>
+    <meta content='ExtrusionCrossSectionExampleTorus.x3d' name='title'/>
+    <meta content='Don Brutzman' name='creator'/>
+    <meta content='31 August 2003' name='created'/>
+    <meta content='23 May 2004' name='modified'/>
+    <meta content='Torus example demonstrating cross-section prototype for Extrusion node that also draws spine line plus oriented, scaled cross sections at each spine point.' name='description'/>
+    <meta content='Utilize ExtrusionCrossSection ProtoInstance as a Shape node (with containerField=&quot;children&quot;) rather than an Extrusion node (with containerField=&quot;geometry&quot;).' name='hint'/>
+    <meta content='http://www.web3d.org/x3d/content/examples/Basic/course/ExtrusionCrossSectionExampleShip.wrl' name='example'/>
+    <meta content='http://www.web3d.org/x3d/content/examples/Basic/Vrml2.0Sourcebook/Chapter30-Scripts/Figure30.5ScriptTorusBuilder.x3d' name='reference'/>
+    <meta content='VRML 97 Specification, 6.18 Extrusion' name='reference'/>
+    <meta content='http://www.web3d.org/technicalinfo/specifications/vrml97/part1/nodesRef.html#Extrusion' name='reference'/>
+    <meta content='VRML 97 Specification, Figure 6.6' name='image'/>
+    <meta content='http://www.web3d.org/technicalinfo/specifications/vrml97/Images/Extrusion.gif' name='image'/>
+    <meta content='http://realism.com/Web3D/Examples/Extrusion/_frame.html' name='reference'/>
+    <meta content='http://www.cs.brown.edu/~gss/vrml/drawpoly.html' name='reference'/>
+    <meta content='ExtrusionXj3dGoldberg1999.java' name='reference'/>
+    <meta content='http://web3d.metrolink.com/cgi-bin/cvsweb.cgi/x3d/src/com/sun/j3d/loaders/vrml97/impl/Attic/Extrusion.java' name='reference'/>
+    <meta content='http://www.web3d.org/x3d/content/examples/Basic/course/ExtrusionCrossSectionExampleTorus.x3d' name='identifier'/>
+    <meta content='X3D-Edit, http://www.web3d.org/x3d/content/README.X3D-Edit.html' name='generator'/>
+    <meta name='license' content='../../license.html'/>
+  </head>
+  <Scene>
+    <!--Utilize ExtrusionCrossSection ProtoInstance as a Shape node (with containerField="children") rather than an Extrusion node (with containerField="geometry").-->
+    <ExternProtoDeclare name='ExtrusionCrossSection' url='&quot;ExtrusionCrossSectionPrototype.wrl#ExtrusionCrossSection&quot;&#10;&quot;/www.web3d.org/x3d/content/examples/Basic/course/ExtrusionCrossSectionPrototype.wrl#ExtrusionCrossSection&quot;&#10;&quot;http://www.web3d.org/x3d/content/examples/Basic/course/ExtrusionCrossSectionPrototype.wrl#ExtrusionCrossSection&quot;&#10;&quot;ExtrusionCrossSectionPrototype.x3d#ExtrusionCrossSection&quot;&#10;&quot;/www.web3d.org/x3d/content/examples/Basic/course/ExtrusionCrossSectionPrototype.x3d#ExtrusionCrossSection&quot;&#10;&quot;http://www.web3d.org/x3d/content/examples/Basic/course/ExtrusionCrossSectionPrototype.x3d#ExtrusionCrossSection&quot;'>
+      <field accessType='initializeOnly' name='name' type='SFString'/>
+      <field accessType='initializeOnly' name='crossSection' type='MFVec2f'/>
+      <field accessType='initializeOnly' name='spine' type='MFVec3f'/>
+      <field accessType='initializeOnly' name='scale' type='MFVec2f'/>
+      <field accessType='initializeOnly' name='orientation' type='MFRotation'/>
+      <field accessType='initializeOnly' name='beginCap' type='SFBool'/>
+      <field accessType='initializeOnly' name='endCap' type='SFBool'/>
+      <field accessType='initializeOnly' name='ccw' type='SFBool'/>
+      <field accessType='initializeOnly' name='convex' type='SFBool'/>
+      <field accessType='initializeOnly' name='creaseAngle' type='SFFloat'/>
+      <field accessType='initializeOnly' name='solid' type='SFBool'/>
+      <field accessType='inputOutput' name='lineColor' type='MFColor'/>
+      <field accessType='inputOutput' name='crossSectionMaterial' type='SFNode'/>
+      <field accessType='inputOutput' name='extrusionMaterial' type='SFNode'/>
+      <field accessType='initializeOnly' name='extrusionImageTexture' type='SFNode'/>
+      <field accessType='initializeOnly' name='extrusionTextureTransform' type='SFNode'/>
+      <!--run-time eventIn Extrusion-modification interfaces for VRML 97 compatibility-->
+      <field accessType='inputOnly' name='set_crossSection' type='MFVec2f'/>
+      <field accessType='inputOnly' name='set_spine' type='MFVec3f'/>
+      <field accessType='inputOnly' name='set_scale' type='MFVec2f'/>
+      <field accessType='inputOnly' name='set_orientation' type='MFRotation'/>
+      <field accessType='initializeOnly' name='traceEnabled' type='SFBool'/>
+    </ExternProtoDeclare>
+    <!--====================-->
+    <!--Example instance adapted from Figure15.12Torus.x3d-->
+    <!--http://www.web3d.org/x3d/content/examples/Basic/Vrml2.0Sourcebook/Chapter15-Extrusion/Figure15.12Torus.x3d-->
+    <!--First position and rotate viewpoint into positive-X-Y-Z octant using a Transform-->
+    <Transform rotation='0 1 0 0.758' translation='10 5 10'>
+      <Viewpoint description='crossSections of Torus' orientation='1 0 0 -0.3' position='0 0 0'/>
+    </Transform>
+    <ProtoInstance name='ExtrusionCrossSection'>
+      <fieldValue name='name' value='Torus'/>
+      <fieldValue name='crossSection' value=' 0  1,  0.38  0.92,  0.71  0.71,  0.92  0.38,&#10; 1  0,  0.92 -0.38,  0.71 -0.71,  0.38 -0.92,&#10; 0 -1, -0.38 -0.92, -0.71 -0.71, -0.92 -0.38,&#10;-1  0, -0.92  0.38, -0.71  0.71, -0.38  0.92,&#10; 0  1'/>
+      <fieldValue name='spine' value=' 2.00 0.0  0.00,   1.85 0.0 0.77,&#10; 1.41 0.0  1.41,   0.77 0.0 1.85,&#10; 0.00 0.0  2.00,  -0.77 0.0 1.85,&#10;-1.41 0.0  1.41,  -1.85 0.0 0.77,&#10;-2.00 0.0  0.00,  -1.85 0.0 -0.77,&#10;-1.41 0.0 -1.41,  -0.77 0.0 -1.85,&#10; 0.00 0.0 -2.00,   0.77 0.0 -1.85,&#10; 1.41 0.0 -1.41,   1.85 0.0 -0.77,&#10; 2.00 0.0  0.00'/>
+      <fieldValue name='beginCap' value='false'/>
+      <fieldValue name='endCap' value='false'/>
+      <fieldValue name='creaseAngle' value='1.57'/>
+      <fieldValue name='lineColor' value='1 1 1'/>
+      <fieldValue name='crossSectionMaterial'>
+        <Material diffuseColor='0.8 0.8 0' emissiveColor='0.1 0 0' transparency='0.1'/>
+      </fieldValue>
+      <fieldValue name='extrusionMaterial'>
+        <Material diffuseColor='1 0 1' transparency='0.5'/>
+      </fieldValue>
+      <fieldValue name='traceEnabled' value='false'/>
+    </ProtoInstance>
+    <Transform scale='4 4 4'>
+      <Inline DEF='CoordinateAxesVrml' url='&quot;CoordinateAxes.wrl&quot;&#10;&quot;/www.web3d.org/x3d/content/examples/Basic/course/CoordinateAxes.wrl&quot;&#10;&quot;/www.web3d.org/x3d/content/examples/Savage/Tools/Authoring/CoordinateAxes.wrl&quot;&#10;&quot;http://www.web3d.org/x3d/content/examples/Basic/course/CoordinateAxes.wrl&quot;&#10;&quot;https://savage.nps.edu/Savage/Tools/Authoring/CoordinateAxes.wrl&quot;&#10;&quot;CoordinateAxes.x3d&quot;&#10;&quot;/www.web3d.org/x3d/content/examples/Basic/course/CoordinateAxes.x3d&quot;&#10;&quot;/www.web3d.org/x3d/content/examples/Savage/Tools/Authoring/CoordinateAxes.x3d&quot;&#10;&quot;http://www.web3d.org/x3d/content/examples/Basic/course/CoordinateAxes.x3d&quot;&#10;&quot;https://savage.nps.edu/Savage/Tools/Authoring/CoordinateAxes.x3d&quot;&#10;&quot;file:///c:/www.web3d.org/x3d/content/examples/Savage/Tools/Authoring/CoordinateAxes.wrl&quot;'/>
+    </Transform>
+  </Scene>
+</X3D>

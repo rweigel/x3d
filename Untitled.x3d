@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D profile='Immersive' >
+<head>
+ <meta name='Vizthumbnail' content='Thumb_Untitled_x3d4178431189619206.jpg'/>
+ <meta name='ExportTime' content='13:46:46'/>
+ <meta name='ExportDate' content='9/12/2007'/>
+ <meta name='FluxStudioVersion' content='659'/>
+</head>
+<Scene>
+<WorldInfo
+ title='Untitled'
+ info='"This Web3D Content was created with Flux Studio, a Web3D authoring tool"
+ "www.mediamachines.com"'/>
+<Transform DEF='dad_IndexedFaceSet2'
+ translation='-5.02471 1.0281 4.11925'>
+ <Shape DEF='IndexedFaceSet2'
+  containerField='children'>
+  <Appearance
+   containerField='appearance'>
+   <Material DEF='Red'
+    containerField='material'
+    ambientIntensity='0.200'
+    shininess='0.200'
+    diffuseColor='1 0 0'/>
+  </Appearance>
+  <IndexedFaceSet DEF='GeoIndexedFaceSet2'
+   containerField='geometry'
+   creaseAngle='0.524'
+   coordIndex='
+     0 1 2 -1
+     0 2 3 -1'>
+   <Coordinate DEF='IndexedFaceSet2_Coord'
+    containerField='coord'
+    point='
+     -.5 .5 .54863
+     -.5 -.5 .54863
+     .5 -.5 .54863
+     .5 .5 .54863'/>
+  </IndexedFaceSet>
+ </Shape>
+</Transform>
+<Transform DEF='dad_IndexedFaceSet6'
+ translation='-5.69072 1.10729 4.53023'>
+ <Shape DEF='IndexedFaceSet6'
+  containerField='children'>
+  <Appearance
+   containerField='appearance'>
+   <Material
+    containerField='material'
+    USE='Red'/>
+  </Appearance>
+  <IndexedFaceSet DEF='GeoIndexedFaceSet6'
+   containerField='geometry'
+   creaseAngle='0.524'
+   coordIndex='
+     0 1 2 -1
+     0 2 3 -1'>
+   <Coordinate DEF='IndexedFaceSet6_Coord'
+    containerField='coord'
+    point='
+     .5 -.5 .54863
+     -.5 -.5 .54863
+     -.5 -.5 -.54863
+     .5 -.5 -.54863'/>
+  </IndexedFaceSet>
+ </Shape>
+</Transform>
+</Scene>
+</X3D>

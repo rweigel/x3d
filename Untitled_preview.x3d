@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D profile='Immersive' >
+<head>
+ <component name='NURBS' level='1'/>
+ <component name='NURBS' level='1'/>
+ <meta name='Vizthumbnail' content='Thumb_Untitled_preview_x3d2066711189473230.jpg'/>
+ <meta name='title' content='ExtrusionCrossSectionExampleTorus.x3d'/>
+ <meta name='creator' content='Don Brutzman'/>
+ <meta name='created' content='31 August 2003'/>
+ <meta name='modified' content='23 May 2004'/>
+ <meta name='description' content='Torus example demonstrating cross-section prototype for Extrusion node that also draws spine line plus oriented, scaled cross sections at each spine point.'/>
+ <meta name='hint' content='Utilize ExtrusionCrossSection ProtoInstance as a Shape node (with containerField="children") rather than an Extrusion node (with containerField="geometry").'/>
+ <meta name='example' content='http://www.web3d.org/x3d/content/examples/Basic/course/ExtrusionCrossSectionExampleShip.wrl'/>
+ <meta name='reference' content='http://www.web3d.org/x3d/content/examples/Basic/Vrml2.0Sourcebook/Chapter30-Scripts/Figure30.5ScriptTorusBuilder.x3d'/>
+ <meta name='reference' content='VRML 97 Specification, 6.18 Extrusion'/>
+ <meta name='reference' content='http://www.web3d.org/technicalinfo/specifications/vrml97/part1/nodesRef.html#Extrusion'/>
+ <meta name='image' content='VRML 97 Specification, Figure 6.6'/>
+ <meta name='image' content='http://www.web3d.org/technicalinfo/specifications/vrml97/Images/Extrusion.gif'/>
+ <meta name='reference' content='http://realism.com/Web3D/Examples/Extrusion/_frame.html'/>
+ <meta name='reference' content='http://www.cs.brown.edu/~gss/vrml/drawpoly.html'/>
+ <meta name='reference' content='ExtrusionXj3dGoldberg1999.java'/>
+ <meta name='reference' content='http://web3d.metrolink.com/cgi-bin/cvsweb.cgi/x3d/src/com/sun/j3d/loaders/vrml97/impl/Attic/Extrusion.java'/>
+ <meta name='identifier' content='http://www.web3d.org/x3d/content/examples/Basic/course/ExtrusionCrossSectionExampleTorus.x3d'/>
+ <meta name='generator' content='X3D-Edit, http://www.web3d.org/x3d/content/README.X3D-Edit.html'/>
+ <meta name='license' content='../../license.html'/>
+ <meta name='title' content='ExtrusionCrossSectionExampleTorus.x3d'/>
+ <meta name='creator' content='Don Brutzman'/>
+ <meta name='created' content='31 August 2003'/>
+ <meta name='modified' content='23 May 2004'/>
+ <meta name='description' content='Torus example demonstrating cross-section prototype for Extrusion node that also draws spine line plus oriented, scaled cross sections at each spine point.'/>
+ <meta name='hint' content='Utilize ExtrusionCrossSection ProtoInstance as a Shape node (with containerField="children") rather than an Extrusion node (with containerField="geometry").'/>
+ <meta name='example' content='http://www.web3d.org/x3d/content/examples/Basic/course/ExtrusionCrossSectionExampleShip.wrl'/>
+ <meta name='reference' content='http://www.web3d.org/x3d/content/examples/Basic/Vrml2.0Sourcebook/Chapter30-Scripts/Figure30.5ScriptTorusBuilder.x3d'/>
+ <meta name='reference' content='VRML 97 Specification, 6.18 Extrusion'/>
+ <meta name='reference' content='http://www.web3d.org/technicalinfo/specifications/vrml97/part1/nodesRef.html#Extrusion'/>
+ <meta name='image' content='VRML 97 Specification, Figure 6.6'/>
+ <meta name='image' content='http://www.web3d.org/technicalinfo/specifications/vrml97/Images/Extrusion.gif'/>
+ <meta name='reference' content='http://realism.com/Web3D/Examples/Extrusion/_frame.html'/>
+ <meta name='reference' content='http://www.cs.brown.edu/~gss/vrml/drawpoly.html'/>
+ <meta name='reference' content='ExtrusionXj3dGoldberg1999.java'/>
+ <meta name='reference' content='http://web3d.metrolink.com/cgi-bin/cvsweb.cgi/x3d/src/com/sun/j3d/loaders/vrml97/impl/Attic/Extrusion.java'/>
+ <meta name='identifier' content='http://www.web3d.org/x3d/content/examples/Basic/course/ExtrusionCrossSectionExampleTorus.x3d'/>
+ <meta name='generator' content='X3D-Edit, http://www.web3d.org/x3d/content/README.X3D-Edit.html'/>
+ <meta name='license' content='../../license.html'/>
+ <meta name='title' content='HelloWorld.x3d'/>
+ <meta name='description' content='Simple X3D example'/>
+ <meta name='created' content='30 October 2000'/>
+ <meta name='modified' content='7 May 2007'/>
+ <meta name='creator' content='Don Brutzman'/>
+ <meta name='identifier' content='http://www.web3d.org/x3d/content/examples/Basic/HelloWorld.x3d'/>
+ <meta name='generator' content='X3D-Edit, http://www.web3d.org/x3d/content/README.X3D-Edit.html'/>
+ <meta name='license' content='license.html'/>
+ <meta name='FluxStudioVersion' content='659'/>
+ <meta name='FluxStudioVersion' content='659'/>
+ <meta name='FluxStudioVersion' content='659'/>
+ <meta name='title' content='ExtrusionCrossSectionExampleTorus.x3d'/>
+ <meta name='creator' content='Don Brutzman'/>
+ <meta name='created' content='31 August 2003'/>
+ <meta name='modified' content='23 May 2004'/>
+ <meta name='description' content='Torus example demonstrating cross-section prototype for Extrusion node that also draws spine line plus oriented, scaled cross sections at each spine point.'/>
+ <meta name='hint' content='Utilize ExtrusionCrossSection ProtoInstance as a Shape node (with containerField="children") rather than an Extrusion node (with containerField="geometry").'/>
+ <meta name='example' content='http://www.web3d.org/x3d/content/examples/Basic/course/ExtrusionCrossSectionExampleShip.wrl'/>
+ <meta name='reference' content='http://www.web3d.org/x3d/content/examples/Basic/Vrml2.0Sourcebook/Chapter30-Scripts/Figure30.5ScriptTorusBuilder.x3d'/>
+ <meta name='reference' content='VRML 97 Specification, 6.18 Extrusion'/>
+ <meta name='reference' content='http://www.web3d.org/technicalinfo/specifications/vrml97/part1/nodesRef.html#Extrusion'/>
+ <meta name='image' content='VRML 97 Specification, Figure 6.6'/>
+ <meta name='image' content='http://www.web3d.org/technicalinfo/specifications/vrml97/Images/Extrusion.gif'/>
+ <meta name='reference' content='http://realism.com/Web3D/Examples/Extrusion/_frame.html'/>
+ <meta name='reference' content='http://www.cs.brown.edu/~gss/vrml/drawpoly.html'/>
+ <meta name='reference' content='ExtrusionXj3dGoldberg1999.java'/>
+ <meta name='reference' content='http://web3d.metrolink.com/cgi-bin/cvsweb.cgi/x3d/src/com/sun/j3d/loaders/vrml97/impl/Attic/Extrusion.java'/>
+ <meta name='identifier' content='http://www.web3d.org/x3d/content/examples/Basic/course/ExtrusionCrossSectionExampleTorus.x3d'/>
+ <meta name='generator' content='X3D-Edit, http://www.web3d.org/x3d/content/README.X3D-Edit.html'/>
+ <meta name='license' content='../../license.html'/>
+ <meta name='title' content='HelloWorld.x3d'/>
+ <meta name='description' content='Simple X3D example'/>
+ <meta name='created' content='30 October 2000'/>
+ <meta name='modified' content='7 May 2007'/>
+ <meta name='creator' content='Don Brutzman'/>
+ <meta name='identifier' content='http://www.web3d.org/x3d/content/examples/Basic/HelloWorld.x3d'/>
+ <meta name='generator' content='X3D-Edit, http://www.web3d.org/x3d/content/README.X3D-Edit.html'/>
+ <meta name='license' content='license.html'/>
+ <meta name='FluxStudioVersion' content='659'/>
+ <meta name='FluxStudioVersion' content='659'/>
+ <meta name='FluxStudioVersion' content='659'/>
+ <meta name='ExportTime' content='21:13:50'/>
+ <meta name='ExportDate' content='9/10/2007'/>
+ <meta name='FluxStudioVersion' content='659'/>
+</head>
+<Scene>
+<WorldInfo
+ title='Untitled'
+ info='"This Web3D Content was created with Flux Studio, a Web3D authoring tool"
+ "www.mediamachines.com"'/>
+<ExternProtoDeclare
+ name='ExtrusionCrossSection'
+ url='"ExtrusionCrossSectionPrototype.wrl#ExtrusionCrossSection"
+ "/www.web3d.org/x3d/content/examples/Basic/course/ExtrusionCrossSectionPrototype.wrl#ExtrusionCrossSection"
+ "http://www.web3d.org/x3d/content/examples/Basic/course/ExtrusionCrossSectionPrototype.wrl#ExtrusionCrossSection"
+ "ExtrusionCrossSectionPrototype.x3d#ExtrusionCrossSection"
+ "/www.web3d.org/x3d/content/examples/Basic/course/ExtrusionCrossSectionPrototype.x3d#ExtrusionCrossSection"
+ "http://www.web3d.org/x3d/content/examples/Basic/course/ExtrusionCrossSectionPrototype.x3d#ExtrusionCrossSection"'>
+ <field accessType='initializeOnly' name='name' type='SFString'/>
+ <field accessType='initializeOnly' name='crossSection' type='MFVec2f'/>
+ <field accessType='initializeOnly' name='spine' type='MFVec3f'/>
+ <field accessType='initializeOnly' name='scale' type='MFVec2f'/>
+ <field accessType='initializeOnly' name='orientation' type='MFRotation'/>
+ <field accessType='initializeOnly' name='beginCap' type='SFBool'/>
+ <field accessType='initializeOnly' name='endCap' type='SFBool'/>
+ <field accessType='initializeOnly' name='ccw' type='SFBool'/>
+ <field accessType='initializeOnly' name='convex' type='SFBool'/>
+ <field accessType='initializeOnly' name='creaseAngle' type='SFFloat'/>
+ <field accessType='initializeOnly' name='solid' type='SFBool'/>
+ <field accessType='inputOutput' name='lineColor' type='MFColor'/>
+ <field accessType='inputOutput' name='crossSectionMaterial' type='SFNode'/>
+ <field accessType='inputOutput' name='extrusionMaterial' type='SFNode'/>
+ <field accessType='initializeOnly' name='extrusionImageTexture' type='SFNode'/>
+ <field accessType='initializeOnly' name='extrusionTextureTransform' type='SFNode'/>
+ <field accessType='inputOnly' name='set_crossSection' type='MFVec2f'/>
+ <field accessType='inputOnly' name='set_spine' type='MFVec3f'/>
+ <field accessType='inputOnly' name='set_scale' type='MFVec2f'/>
+ <field accessType='inputOnly' name='set_orientation' type='MFRotation'/>
+ <field accessType='initializeOnly' name='traceEnabled' type='SFBool'/>
+</ExternProtoDeclare>
+<Group DEF='Import_ExtrusionCrossSectionExampleTorus'>
+ <Transform
+  containerField='children'
+  translation='-.41211 -.03655 .46558'/>
+ <Transform
+  containerField='children'
+  translation='10 5 10'
+  rotation='0 1 0 .758'>
+  <Viewpoint DEF='A_vp'
+   containerField='children'
+   description='crossSections of Torus'
+   jump='true'
+   fieldOfView='0.785'
+   position='0 0 0'
+   orientation='1 0 0 -.3'/>
+ </Transform>
+ <ProtoInstance
+  containerField='children'
+  name='ExtrusionCrossSection'/>
+ <Transform DEF='dad_CoordinateAxesVrml'
+  containerField='children'
+  scale='4 4 4'>
+  <Inline DEF='CoordinateAxesVrml'
+   containerField='children'
+   url='"CoordinateAxes.wrl"'/>
+ </Transform>
+</Group>
+</Scene>
+</X3D>

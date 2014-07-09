@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D profile='Immersive' >
+<head>
+ <meta name='Vizthumbnail' content='Thumb_Untitled4_x3d23984841189459899.jpg'/>
+ <meta name='ExportTime' content='17:31:39'/>
+ <meta name='ExportDate' content='9/10/2007'/>
+ <meta name='FluxStudioVersion' content='659'/>
+ <meta name='FluxStudioSource' content='untitled4.fxw'/>
+</head>
+<Scene>
+<WorldInfo
+ title='Untitled4'
+ info='"This Web3D Content was created with Flux Studio, a Web3D authoring tool"
+ "www.mediamachines.com"'/>
+<Transform DEF='dad_Cylinder1'
+ translation='-3 2.85449 -.28695'>
+ <Shape DEF='Cylinder1'
+  containerField='children'>
+  <Appearance
+   containerField='appearance'>
+   <Material DEF='Red'
+    containerField='material'
+    ambientIntensity='0.200'
+    shininess='0.200'
+    diffuseColor='1 0 0'/>
+  </Appearance>
+  <Cylinder DEF='GeoCylinder1'
+   containerField='geometry'
+   height='2.000'
+   radius='2.085'
+   top='false'
+   bottom='false'
+   solid='false'/>
+ </Shape>
+</Transform>
+</Scene>
+</X3D>

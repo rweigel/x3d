@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D profile='Immersive' >
+<head>
+ <meta name='Vizthumbnail' content='Thumb_MapToSphere_preview_x3d1286401208739391.jpg'/>
+ <meta name='title' content='HelloWorld.x3d'/>
+ <meta name='description' content='Simple X3D example'/>
+ <meta name='created' content='30 October 2000'/>
+ <meta name='modified' content='7 May 2007'/>
+ <meta name='creator' content='Don Brutzman'/>
+ <meta name='identifier' content='http://www.web3d.org/x3d/content/examples/Basic/HelloWorld.x3d'/>
+ <meta name='generator' content='X3D-Edit, http://www.web3d.org/x3d/content/README.X3D-Edit.html'/>
+ <meta name='license' content='license.html'/>
+ <meta name='ExportTime' content='20:56:31'/>
+ <meta name='ExportDate' content='4/20/2008'/>
+ <meta name='FluxStudioVersion' content='659'/>
+ <meta name='FluxStudioSource' content='maptosphere.fxw'/>
+</head>
+<Scene>
+<WorldInfo
+ title='MapToSphere'
+ info='"This Web3D Content was created with Flux Studio, a Web3D authoring tool"
+ "www.mediamachines.com"'/>
+<Transform DEF='dad_Import_HelloWorld'
+ translation='-1.94242 .46412 .24521'>
+ <Group DEF='Import_HelloWorld'
+  containerField='children'>
+  <Group
+   containerField='children'>
+   <Viewpoint DEF='A_vp'
+    containerField='children'
+    description='hello, world!'
+    jump='true'
+    fieldOfView='0.785'
+    position='.41456 -1.11528 6.95555'
+    orientation='0 0 1 0'/>
+   <Transform
+    containerField='children'
+    translation='-.04244 -.19166 .10344'
+    rotation='0 1 0 3'>
+    <Shape
+     containerField='children'>
+     <Appearance
+      containerField='appearance'>
+      <ImageTexture
+       containerField='texture'
+       url='
+        "earth-topo.png"'/>
+     </Appearance>
+     <Sphere
+      containerField='geometry'
+      radius='1.000'/>
+    </Shape>
+   </Transform>
+   <Transform
+    containerField='children'
+    translation='0 -2 0'>
+    <Shape
+     containerField='children'>
+     <Appearance
+      containerField='appearance'>
+      <Material
+       containerField='material'
+       ambientIntensity='0.200'
+       shininess='0.200'
+       diffuseColor='.1 .5 1'/>
+     </Appearance>
+     <Text
+      containerField='geometry'
+      string='"Hello"
+       "world!"'
+      maxExtent='0.000'>
+      <FontStyle
+       containerField='fontStyle'
+       family='SERIF'
+       style='PLAIN'
+       justify='"MIDDLE"
+        "MIDDLE"'
+       size='1.000'
+       spacing='1.000'/>
+     </Text>
+    </Shape>
+   </Transform>
+  </Group>
+ </Group>
+</Transform>
+</Scene>
+</X3D>

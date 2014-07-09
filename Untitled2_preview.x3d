@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D profile='Immersive' >
+<head>
+<component name='NURBS' level='1'/>
+ <meta name='Vizthumbnail' content='Thumb_Untitled2_preview_x3d19552341190941945.jpg'/>
+ <meta name='ExportTime' content='21:12:25'/>
+ <meta name='ExportDate' content='9/27/2007'/>
+ <meta name='FluxStudioVersion' content='659'/>
+ <meta name='FluxStudioSource' content='untitled2.fxw'/>
+</head>
+<Scene>
+<WorldInfo
+ title='Untitled2'
+ info='"This Web3D Content was created with Flux Studio, a Web3D authoring tool"
+ "www.mediamachines.com"'/>
+<Transform DEF='dad_Revolution1'
+ translation='.63095 -.30054 .92481'>
+ <Shape DEF='Revolution1'
+  containerField='children'>
+  <Appearance
+   containerField='appearance'>
+   <Material DEF='Red'
+    containerField='material'
+    ambientIntensity='0.200'
+    shininess='0.200'
+    diffuseColor='1 0 0'/>
+  </Appearance>
+  <Extrusion
+   containerField='geometry'
+   creaseAngle='0.524'
+   crossSection='
+    0 -1.07018
+    1.16144 .01659
+    .0083 1.54306'
+   orientation='
+    -1 0 0 1.571
+    -.958 -.204 -.204 1.614
+    -.846 -.377 -.377 1.737
+    -.697 -.507 -.507 1.924
+    -.537 -.596 -.596 2.156
+    -.378 -.655 -.655 2.419
+    -.224 -.689 -.689 2.701
+    -.074 -.705 -.705 2.994
+    -.074 .705 .705 2.994
+    -.224 .689 .689 2.701
+    -.378 .655 .655 2.419
+    -.537 .596 .596 2.156
+    -.697 .507 .507 1.924
+    -.846 .377 .377 1.737
+    -.958 .204 .204 1.614
+    -1 0 0 1.571'
+   spine='
+    0 0 0
+    0 0 0
+    0 0 0
+    0 0 0
+    0 0 0
+    0 0 0
+    0 0 0
+    0 0 0
+    0 0 0
+    0 0 0
+    0 0 0
+    0 0 0
+    0 0 0
+    0 0 0
+    0 0 0
+    0 0 0'/>
+ </Shape>
+</Transform>
+<Transform DEF='dad_SweptSurface1'
+ translation='-1.22131 -.77423 3.04956'>
+ <Shape DEF='SweptSurface1'
+  containerField='children'>
+  <Appearance
+   containerField='appearance'>
+   <Material DEF='Blue'
+    containerField='material'
+    ambientIntensity='0.900'
+    shininess='0.500'
+    transparency='0.500'
+    diffuseColor='0 0 1'/>
+  </Appearance>
+  <NurbsPatchSurface
+   containerField='geometry'
+   solid='false'
+   ccw='true'
+   uDimension='10'
+   vDimension='2'
+   uOrder='3'
+   vOrder='2'
+   uTessellation='-4'
+   vTessellation='-4'
+   uKnot='
+    0
+    0
+    0
+    .125
+    .25
+    .375
+    .5
+    .625
+    .75
+    .875
+    1
+    1
+    1'
+   vKnot='
+    0
+    0
+    1
+    1'>
+   <Coordinate
+    containerField='controlPoint'
+    point='
+     -.16592 0 -.63879
+     -.4148 0 -.53094
+     -.53924 0 -.30695
+     -.6305 0 .07466
+     -.34843 0 .48946
+     .05807 0 .56413
+     .30695 0 .23229
+     .37332 0 -.23229
+     .37332 0 -.70516
+     -.14933 0 -1.0453
+     -.16592 1 -.63879
+     -.4148 1 -.53094
+     -.53924 1 -.30695
+     -.6305 1 .07466
+     -.34843 1 .48946
+     .05807 1 .56413
+     .30695 1 .23229
+     .37332 1 -.23229
+     .37332 1 -.70516
+     -.14933 1 -1.0453'/>
+  </NurbsPatchSurface>
+ </Shape>
+</Transform>
+<Transform DEF='dad_Extrusion1'
+ translation='-2.98606 -1.33104 3.10557'>
+ <Shape DEF='Extrusion1'
+  containerField='children'>
+  <Appearance
+   containerField='appearance'>
+   <Material
+    containerField='material'
+    USE='Red'/>
+  </Appearance>
+  <NurbsPatchSurface
+   containerField='geometry'
+   ccw='true'
+   uDimension='8'
+   vDimension='2'
+   uOrder='4'
+   vOrder='2'
+   uTessellation='-8'
+   vTessellation='1'
+   uKnot='
+    0
+    0
+    0
+    0
+    .2
+    .4
+    .6
+    .8
+    1
+    1
+    1
+    1'
+   vKnot='
+    0
+    0
+    1
+    1'>
+   <Coordinate
+    containerField='controlPoint'
+    point='
+     -.25718 0 -1.0453
+     -.48946 0 -.63879
+     -.48117 0 .02489
+     .09955 0 .38162
+     .54754 0 -.1991
+     .63879 0 -.80471
+     -.14103 0 -1.35225
+     -.25718 0 -1.0453
+     -.25718 2 -1.0453
+     -.48946 2 -.63879
+     -.48117 2 .02489
+     .09955 2 .38162
+     .54754 2 -.1991
+     .63879 2 -.80471
+     -.14103 2 -1.35225
+     -.25718 2 -1.0453'/>
+  </NurbsPatchSurface>
+ </Shape>
+</Transform>
+<Transform DEF='dad_LOD1'
+ translation='1.97967 -.84914 10.2048'>
+ <LOD DEF='LOD1'
+  containerField='children'
+  range=''>
+  <Group
+   containerField='children'>
+   <Transform DEF='dad_SculptedSurface1'
+    containerField='children'
+    translation='-2.2386 -.00817 -6.16796'>
+    <Shape DEF='SculptedSurface1'
+     containerField='children'>
+     <Appearance
+      containerField='appearance'>
+      <Material
+       containerField='material'
+       USE='Red'/>
+     </Appearance>
+     <NurbsPatchSurface
+      containerField='geometry'
+      solid='false'
+      ccw='true'
+      uDimension='7'
+      vDimension='2'
+      uOrder='4'
+      vOrder='2'
+      uTessellation='-4'
+      vTessellation='-4'
+      uKnot='
+       0
+       0
+       0
+       0
+       .25
+       .5
+       .75
+       1
+       1
+       1
+       1'
+      vKnot='
+       0
+       0
+       1
+       1'>
+      <Coordinate
+       containerField='controlPoint'
+       point='
+        .01659 0 -.66368
+        .51435 0 -.17422
+        .37332 0 .47287
+        -.4231 0 .68027
+        -.48946 0 .17422
+        -.38991 0 -.32354
+        .01659 0 -.66368
+        .01659 1 -.66368
+        .51435 1 -.17422
+        .37332 1 .47287
+        -.4231 1 .68027
+        -.48946 1 .17422
+        -.38991 1 -.32354
+        .01659 1 -.66368'/>
+     </NurbsPatchSurface>
+    </Shape>
+   </Transform>
+  </Group>
+ </LOD>
+</Transform>
+<Script
+ directOutput='FALSE'
+ mustEvaluate='FALSE'>
+ <field name='NewField1' accessType='inputOutput' type='SFString' value=''/>
+ <![CDATA[ecmascript:
+function initialize() {
+
+}
+
+function set_NewField1( val, currtime ) {
+
+}
+
+ ]]>
+</Script>
+<DirectionalLight DEF='Light1'
+ intensity='1.000'
+ ambientIntensity='0.000'
+ direction='0 0 -1'
+ color='1 1 1'
+ on='true'/>
+<NavigationInfo DEF='NavigationInfo1'
+ avatarSize='
+  .25 1.6 .75'
+ visibilityLimit='0'
+ speed='1'
+ headlight='true'
+ type='"EXAMINE"'/>
+</Scene>
+</X3D>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D profile='Immersive' >
+<head>
+ <meta name='Vizthumbnail' content='Thumb_Untitled2_x3d8156091190940805.jpg'/>
+ <meta name='ExportTime' content='20:53:25'/>
+ <meta name='ExportDate' content='9/27/2007'/>
+ <meta name='FluxStudioVersion' content='659'/>
+ <meta name='FluxStudioSource' content='untitled2.fxw'/>
+</head>
+<Scene>
+<WorldInfo
+ title='Untitled2'
+ info='"This Web3D Content was created with Flux Studio, a Web3D authoring tool"
+ "www.mediamachines.com"'/>
+<Shape DEF='Revolution1'>
+ <Appearance
+  containerField='appearance'>
+  <Material DEF='Red'
+   containerField='material'
+   ambientIntensity='0.200'
+   shininess='0.200'
+   diffuseColor='1 0 0'/>
+ </Appearance>
+ <Extrusion
+  containerField='geometry'
+  creaseAngle='0.524'
+  crossSection='
+   0 -1.07018
+   1.16144 .01659
+   .0083 1.54306'
+  orientation='
+   -1 0 0 1.571
+   -.958 -.204 -.204 1.614
+   -.846 -.377 -.377 1.737
+   -.697 -.507 -.507 1.924
+   -.537 -.596 -.596 2.156
+   -.378 -.655 -.655 2.419
+   -.224 -.689 -.689 2.701
+   -.074 -.705 -.705 2.994
+   -.074 .705 .705 2.994
+   -.224 .689 .689 2.701
+   -.378 .655 .655 2.419
+   -.537 .596 .596 2.156
+   -.697 .507 .507 1.924
+   -.846 .377 .377 1.737
+   -.958 .204 .204 1.614
+   -1 0 0 1.571'
+  spine='
+   0 0 0
+   0 0 0
+   0 0 0
+   0 0 0
+   0 0 0
+   0 0 0
+   0 0 0
+   0 0 0
+   0 0 0
+   0 0 0
+   0 0 0
+   0 0 0
+   0 0 0
+   0 0 0
+   0 0 0
+   0 0 0'/>
+</Shape>
+</Scene>
+</X3D>
